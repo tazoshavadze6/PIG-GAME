@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #c35c6d;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBox {
+  width: 900px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.box1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currentBox {
+  width: 150px;
+  height: 150px;
+  background-color: #c7365f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.player1 {
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.livePoint1 {
+  color: white;
+  font-size: 80px;
+}
+
+.livePoint2 {
+  color: black;
+  font-size: 80px;
+}
+
+.current {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.currentPoint {
+  color: white;
+  font-size: 20px;
+}
+
+.rollDice {
+  position: absolute;
+  bottom: 150px;
+  left: 41%;
+  width: 150px;
+  height: 30px;
+    outline: none;
+  border: none;
+  cursor: pointer;
+}
+img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 40%;
+  bottom: 50%;
+  border-radius: 10px;
+}
+
+.hold {
+  position: absolute;
+  bottom: 80px;
+  left: 41%;
+  width: 150px;
+  height: 30px;
+    outline: none;
+  border: none;
+  cursor: pointer;
+}
+.newGame{
+  position: absolute;
+  top: 20px;
+  left: 41%;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
