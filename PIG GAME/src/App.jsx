@@ -7,7 +7,7 @@ function App() {
   const [player, setPlayer] = useState(false);
   const [leftPlayer, setLeftPlayer] = useState(0);
   const [rightPlayer, setRightPlayer] = useState(0);
-
+console.log("testing branch")
 
 useEffect( ()=> {
 alert("player winner!!!!")
